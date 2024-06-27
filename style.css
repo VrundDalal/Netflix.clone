@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    position: relative;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    top: 0;
+    background-color: black;
+    position: absolute;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 60vw;
+    height: 65px;
+}
+
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 23px;
+    position: relative;
+    padding: 30px;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sepration{
+    height: 8px;
+    background-color: rgb(31, 31, 32);
+}
+
+/* english btn */
+.btn{
+    padding: 3px 8px;
+    background-color: rgba(45, 42, 42, 0.868);
+    color: white;
+    border: 0.1px solid rgb(69, 69, 69);
+    padding: 6px 25px;
+    border-radius: 4px;
+
+}
+
+/* get started btn */
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* sign in   */
+.btn-red-sm{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 8px;
+    cursor: pointer;
+
+}
+
+.main input{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 0.1ch solid rgb(62, 56, 56);
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+}
+
+/* second part */
+
+.first{
+    display: flex;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px ){
+    
+}
+
+.secimg{
+    position: relative;
+}
+
+.secimg img{
+    width: 450px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 390px;
+}
+ 
+/* for text */
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+}
+
+section.first > div :nth-child(2){
+    font-size: 24px;
+    
+}
+/* end */
+
+/* secred game */
+/* for video */
+.first-third{
+    display: flex;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center; 
+}
+
+.first-third video{
+    position: absolute;
+    top: 34px;
+    left: 87px;
+    width: 22vw;
+}
+
+/* end */
+/* text start */
+.first-third img{
+    position: relative;
+}
+
+section.first-third > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first-third > div :nth-child(1){
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+section.first-third > div :nth-child(2){
+    font-size: 24px;
+    
+}
+/* text end */
+
+/* faq */
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    padding: 34px;
+    background-color: black;
+    color: white;
+}
+.faqbox{
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    padding: 22px;
+    max-width: 70vw;
+    margin: 13px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+}
+.faqbox:hover{
+    background-color: rgb(50, 50, 50);
+}
+
+/* footer */
+footer{
+    color: white;
+    padding: 20px;
+    margin: auto;
+    max-width: 60vw;
+}
+
+footer .questions{
+     padding: 34px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer a{
+    font-size: 16px;
+    color: white;
+}
